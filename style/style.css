@@ -1,0 +1,438 @@
+*{
+  font-weight:bold ;
+}
+@media (min-width: 350px) {
+  body{
+    background-color: rgb(255, 255, 255);
+   
+  }
+ 
+  header h1{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    color: #2D3D8B;
+  }
+  header nav {
+    color: #2D3D8B;
+   padding: 1px;
+    text-decoration: none;
+   font-size: 13px;
+   text-align: center;
+   
+  }
+  header nav a{
+    color: #2D3D8B;
+   padding: 1px;
+    text-decoration: none;
+   font-size: 13px;
+   text-align: center;
+   
+  }
+
+  
+  .asd1 img{
+    animation: scale-in-hor-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    height: 0px;
+    
+    
+    }
+    @keyframes scale-in-hor-center {
+    0% {
+      transform: scaleX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: scaleX(1);
+      opacity: 1;
+    }
+    }
+  
+  }
+  article{
+    text-align: center;
+  }
+  
+  article div{
+    font-size: 30px;
+   color: #2D3D8B;
+   direction: rtl;
+  
+   
+  }
+  article h1{
+    
+    animation: rotate-diagonal-1 0.4s linear both;
+  }
+  article h3{
+   
+    animation: rotate-diagonal-1 0.4s linear both;
+  }
+  @keyframes rotate-diagonal-1 {
+    0% {
+      transform: rotate3d(1, 1, 0, 0deg);
+    }
+    50% {
+      transform: rotate3d(1, 1, 0, -180deg);
+    }
+    100% {
+      transform: rotate3d(1, 1, 0, -360deg);
+    }
+  }
+  footer h5{
+  margin-top: 380px;
+  text-align: center;
+ }
+
+@media (min-width: 576px) { 
+  body{
+    background-color: aliceblue;
+   
+  }
+ 
+  header h1{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    color: #2D3D8B;
+  }
+  header nav {
+    color: #2D3D8B;
+   padding: 1px;
+    text-decoration: none;
+   font-size: 13px;
+   text-align: center;
+   
+  }
+  header nav a{
+    color: #2D3D8B;
+   padding: 1px;
+    text-decoration: none;
+   font-size: 13px;
+   text-align: center;
+   
+  }
+
+
+.asd1 img{
+  animation: scale-in-hor-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  height: 0px;
+  
+  
+  }
+  @keyframes scale-in-hor-center {
+  0% {
+    transform: scaleX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  }
+
+}
+
+
+article div{
+  font-size: 30px;
+ color: #2D3D8B;
+ direction: rtl;
+
+ 
+}
+article h1{
+  margin: 0px;
+  direction: rtl;
+  animation: rotate-diagonal-1 0.4s linear both;
+}
+article h3{
+  margin: 0px;
+  direction: rtl;
+  animation: rotate-diagonal-1 0.4s linear both;
+}
+@keyframes rotate-diagonal-1 {
+  0% {
+    transform: rotate3d(1, 1, 0, 0deg);
+  }
+  50% {
+    transform: rotate3d(1, 1, 0, -180deg);
+  }
+  100% {
+    transform: rotate3d(1, 1, 0, -360deg);
+  }
+}
+footer h5{
+margin-top: 380px;
+text-align: center;
+} 
+
+
+@media (min-width: 768px) {
+  body{
+    background-color: aliceblue;
+   
+  }
+ 
+  header h1{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    color: #2D3D8B;
+  }
+  header nav {
+    color: #2D3D8B;
+   padding: 1px;
+    text-decoration: none;
+   font-size: 13px;
+   text-align: center;
+   
+  }
+  header nav a{
+    color: #2D3D8B;
+   padding: 1px;
+    text-decoration: none;
+   font-size: 13px;
+   text-align: center;
+   
+  }
+
+  .asd1{
+  
+  direction: ltr;
+  height: 0px;
+
+  
+  }
+  
+  .asd1 img{
+    animation: scale-in-hor-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    width:300px;
+    
+    }
+    @keyframes scale-in-hor-center {
+    0% {
+      transform: scaleX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: scaleX(1);
+      opacity: 1;
+    }
+    }
+  
+  }
+  
+  
+  article div{
+    font-size: 30px;
+   color: #2D3D8B;
+ 
+   
+   height: 0px
+  
+   
+  }
+  article h1{
+    animation: rotate-diagonal-1 0.4s linear both;
+  }
+  article h3{
+    animation: rotate-diagonal-1 0.4s linear both;
+  }
+  @keyframes rotate-diagonal-1 {
+    0% {
+      transform: rotate3d(1, 1, 0, 0deg);
+    }
+    50% {
+      transform: rotate3d(1, 1, 0, -180deg);
+    }
+    100% {
+      transform: rotate3d(1, 1, 0, -360deg);
+    }
+  }
+  footer h5{
+  margin-top: 380px;
+  text-align: center;
+  }
+   
+ 
+
+
+
+@media (min-width: 992px){ 
+     
+body{
+  background-color: aliceblue;
+
+}
+header{
+  direction: ltr;
+ 
+}
+header h1{
+
+  width: 300px;
+  margin: 0px;
+  height: 5px;
+  color: #2D3D8B;
+}
+header nav{
+  text-align: end;
+ 
+}
+header nav a{
+  direction: rtl;
+  color: #2D3D8B;
+  padding: 20px;
+  text-decoration: none;
+ 
+ 
+}
+.asd1{
+
+direction: ltr;
+height: 0px;
+margin-left: 150px;
+
+}
+
+.asd1 img{
+  animation: scale-in-hor-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  width: 300px;
+  
+  }
+  @keyframes scale-in-hor-center {
+  0% {
+    transform: scaleX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  }
+
+}
+
+
+article div{
+  font-size: 30px;
+ color: #2D3D8B;
+margin-top: 150px;
+ margin-right: 50px;
+ height: 0px
+
+ 
+}
+article h1{
+  animation: rotate-diagonal-1 0.4s linear both;
+}
+article h3{
+  animation: rotate-diagonal-1 0.4s linear both;
+}
+@keyframes rotate-diagonal-1 {
+  0% {
+    transform: rotate3d(1, 1, 0, 0deg);
+  }
+  50% {
+    transform: rotate3d(1, 1, 0, -180deg);
+  }
+  100% {
+    transform: rotate3d(1, 1, 0, -360deg);
+  }
+}
+footer h5{
+margin-top: 380px;
+text-align: center;
+}
+ 
+
+
+
+@media (min-width: 1200px) { 
+   
+body{
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+}
+header{
+  direction: ltr;
+  padding: 10px;
+}
+header h1{
+  width: 300px;
+  margin: 0px;
+  height: 5px;
+  color: #2D3D8B;
+}
+header nav{
+ text-align: end;
+ 
+}
+header nav a{
+  color: #2D3D8B;
+  padding: 20px;
+  text-decoration: none;
+ 
+ 
+}
+.asd1{
+
+direction: ltr;
+margin-left: 150px;
+
+}
+
+.asd1 img{
+animation: scale-in-hor-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+width: 500px;
+height: 300px;
+margin: auto;
+background-size: auto ;
+margin-right: 1000px;
+
+
+}
+@keyframes scale-in-hor-center {
+0% {
+  transform: scaleX(0);
+  opacity: 1;
+}
+100% {
+  transform: scaleX(1);
+  opacity: 1;
+}
+}
+
+
+article div{
+  font-size: 30px;
+ color: #2D3D8B;
+margin-top: 150px;
+ margin-right: 50px;
+ height: 0px
+
+ 
+}
+article h1{
+  animation: rotate-diagonal-1 0.4s linear both;
+}
+article h3{
+  animation: rotate-diagonal-1 0.4s linear both;
+}
+@keyframes rotate-diagonal-1 {
+  0% {
+    transform: rotate3d(1, 1, 0, 0deg);
+  }
+  50% {
+    transform: rotate3d(1, 1, 0, -180deg);
+  }
+  100% {
+    transform: rotate3d(1, 1, 0, -360deg);
+  }
+}
+footer h5{
+margin-top: 380px;
+text-align: center;
+}
+ }

@@ -1,0 +1,217 @@
+*{
+  font-weight:bold ;
+}
+/*جواااااااااااااال*/
+@media (min-width: 350px) {
+    body{
+      background-color: aliceblue;
+     
+    }
+   
+    header h1{
+      width: 300px;
+      margin: auto;
+      text-align: center;
+      color: #2D3D8B;
+    }
+    header nav {
+      color: #2D3D8B;
+     padding: 1px;
+      text-decoration: none;
+     font-size: 13px;
+     text-align: center;
+     
+    }
+    header nav a{
+      color: #2D3D8B;
+     padding: 1px;
+      text-decoration: none;
+     font-size: 13px;
+     text-align: center;
+     
+    }
+  
+    article img{
+      width: 300px;
+      position: relative;
+      right: 80px;
+    
+      border-radius: 20px;
+      margin-top: 50px;
+    }
+    footer h5{
+    margin-top: 380px;
+    text-align: center;
+   }
+  
+   /*ايباد*/
+  @media (min-width: 576px) { 
+    body{
+      background-color: aliceblue;
+     
+    }
+   
+    header h1{
+      width: 300px;
+      margin: auto;
+      text-align: center;
+      color: #2D3D8B;
+    }
+    header nav {
+      color: #2D3D8B;
+     padding: 1px;
+      text-decoration: none;
+     font-size: 13px;
+     text-align: center;
+     
+    }
+    header nav a{
+      color: #2D3D8B;
+     padding: 1px;
+      text-decoration: none;
+     font-size: 13px;
+     text-align: center;
+     
+    }
+    article img{
+      width: 500px;
+      position: relative;
+      right: 80px;
+    
+      border-radius: 20px;
+      margin-top: 50px;
+    }
+  footer h5{
+  margin-top: 380px;
+  text-align: center;
+  } 
+  
+  /*بداية الأيباد*/
+  
+  @media (min-width: 768px) {
+    body{
+      background-color: aliceblue;
+     
+    }
+   
+    header h1{
+      width: 300px;
+      margin: auto;
+      text-align: center;
+      color: #2D3D8B;
+    }
+    header nav {
+      color: #2D3D8B;
+     padding: 1px;
+      text-decoration: none;
+     font-size: 13px;
+     text-align: center;
+     
+    }
+    header nav a{
+      color: #2D3D8B;
+     padding: 1px;
+      text-decoration: none;
+     font-size: 13px;
+     text-align: center;
+     
+    }
+    article img{
+      width: 550px;
+      position: relative;
+      right: 80px;
+      border-radius: 20px;
+      margin-top: 50px;
+    }
+    footer h5{
+    margin-top: 380px;
+    text-align: center;
+    }
+     
+   
+  /*اقل من الكميووووووووووووووووووترررر*/
+  
+  
+  @media (min-width: 992px){ 
+       
+  body{
+    background-color: aliceblue;
+  
+  }
+  header{
+    direction: ltr;
+   
+  }
+  header h1{
+  
+    width: 300px;
+    margin: 0px;
+    height: 5px;
+    color: #2D3D8B;
+  }
+  header nav{
+    text-align: end;
+   
+  }
+  header nav a{
+    direction: rtl;
+    color: #2D3D8B;
+    padding: 20px;
+    text-decoration: none;
+   
+   
+  }
+  article img{
+    width: 750px;
+    position: relative;
+    right: 80px;
+  
+    border-radius: 20px;
+    margin-top: 50px;
+  }
+  footer h5{
+  margin-top: 380px;
+  text-align: center;
+  }
+   /*كميوووووووووووووووووترررررر*/
+  
+  @media (min-width: 1200px) { 
+     
+  body{
+    background-color: aliceblue;
+    box-sizing: border-box;
+  }
+  header{
+    direction: ltr;
+    padding: 10px;
+  }
+  header h1{
+    width: 300px;
+    margin: 0px;
+    height: 5px;
+    color: #2D3D8B;
+  }
+  header nav{
+    text-align: end;
+   
+  }
+  header nav a{
+    color: #2D3D8B;
+    padding: 20px;
+    text-decoration: none;
+   
+  }
+  article img{
+    width: 1000px;
+    position: relative;
+    right: 80px;
+  
+    border-radius: 20px;
+    margin-top: 50px;
+  }
+  footer h5{
+  margin-top: 380px;
+  text-align: center;
+  }
+   }
+}}}}

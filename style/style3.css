@@ -1,0 +1,263 @@
+*{
+  font-weight:bold ;
+}
+/*جواااااااااااااال*/
+@media (min-width: 350px) {
+    body{
+      background-color: aliceblue;
+     
+    }
+   
+    header h1{
+      width: 300px;
+      margin: auto;
+      text-align: center;
+      color: #2D3D8B;
+    }
+    header nav {
+      color: #2D3D8B;
+     padding: 1px;
+      text-decoration: none;
+     font-size: 13px;
+     text-align: center;
+     
+    }
+    header nav a{
+      color: #2D3D8B;
+     padding: 1px;
+      text-decoration: none;
+     font-size: 13px;
+     text-align: center;
+     
+    }
+  
+    article ul{
+      text-align: center;
+      
+    }
+    article ul div{
+     padding: 10px;
+      
+    }
+    article ul li{
+       list-style: none;
+       padding: 10px;
+       width: 200px;
+       margin: auto;
+       border: #2D3D8B solid 5px;
+       border-radius: 50px;
+       
+    }
+    footer h5{
+    margin-top: 200px;
+    text-align: center;
+   }
+  
+   /*ايباد*/
+  @media (min-width: 576px) { 
+    body{
+      background-color: aliceblue;
+     
+    }
+   
+    header h1{
+      width: 300px;
+      margin: auto;
+      text-align: center;
+      color: #2D3D8B;
+    }
+    header nav {
+      color: #2D3D8B;
+     padding: 1px;
+      text-decoration: none;
+     font-size: 13px;
+     text-align: center;
+     
+    }
+    header nav a{
+      color: #2D3D8B;
+     padding: 1px;
+      text-decoration: none;
+     font-size: 13px;
+     text-align: center;
+     
+    }
+    article ul{
+      text-align: center;
+      
+    }
+    article ul div{
+     padding: 10px;
+      
+    }
+    article ul li{
+       list-style: none;
+       padding: 10px;
+       width: 200px;
+       margin: auto;
+       border: #2D3D8B solid 5px;
+       border-radius: 50px;
+       
+    }
+  footer h5{
+  margin-top: 200px;
+  text-align: center;
+  } 
+  
+  /*بداية الأيباد*/
+  
+  @media (min-width: 768px) {
+    body{
+      background-color: aliceblue;
+     
+    }
+   
+    header h1{
+      width: 300px;
+      margin: auto;
+      text-align: center;
+      color: #2D3D8B;
+    }
+    header nav {
+      color: #2D3D8B;
+     padding: 1px;
+      text-decoration: none;
+     font-size: 13px;
+     text-align: center;
+     
+    }
+    header nav a{
+      color: #2D3D8B;
+     padding: 1px;
+      text-decoration: none;
+     font-size: 13px;
+     text-align: center;
+     
+    }
+    article ul{
+      text-align: center;
+      
+    }
+    article ul div{
+     padding: 10px;
+      
+    }
+    article ul li{
+       list-style: none;
+       padding: 10px;
+       width: 200px;
+       margin: auto;
+       border: #2D3D8B solid 5px;
+       border-radius: 50px;
+       
+    }
+    footer h5{
+    margin-top: 200px;
+    text-align: center;
+    }
+     
+   
+  /*اقل من الكميووووووووووووووووووترررر*/
+  
+  
+  @media (min-width: 992px){ 
+       
+  body{
+    background-color: aliceblue;
+  
+  }
+  header{
+    direction: ltr;
+   
+  }
+  header h1{
+  
+    width: 300px;
+    margin: 0px;
+    height: 5px;
+    color: #2D3D8B;
+  }
+  header nav{
+    text-align: end;
+   
+  }
+  header nav a{
+    direction: rtl;
+    color: #2D3D8B;
+    padding: 20px;
+    text-decoration: none;
+   
+   
+  }
+  article ul{
+    text-align: center;
+    
+  }
+  article ul div{
+   padding: 10px;
+    
+  }
+  article ul li{
+     list-style: none;
+     padding: 10px;
+     width: 200px;
+     margin: auto;
+     border: #2D3D8B solid 5px;
+     border-radius: 50px;
+     
+  }
+  footer h5{
+  margin-top: 200px;
+  text-align: center;
+  }
+   /*كميوووووووووووووووووترررررر*/
+  
+  @media (min-width: 1200px) { 
+     
+  body{
+    background-color: aliceblue;
+    box-sizing: border-box;
+  }
+  header{
+    direction: ltr;
+    padding: 10px;
+  }
+  header h1{
+    width: 300px;
+    margin: 0px;
+    height: 5px;
+    color: #2D3D8B;
+  }
+  header nav{
+    text-align: end;
+   
+  }
+  header nav a{
+    color: #2D3D8B;
+    padding: 20px;
+    text-decoration: none;
+   
+  }
+  article ul{
+    text-align: center;
+    
+  }
+  article ul div{
+   padding: 10px;
+    
+  }
+  article ul li{
+     list-style: none;
+     padding: 10px;
+     width: 200px;
+     margin: auto;
+     border: #2D3D8B solid 5px;
+     border-radius: 50px;
+     
+  }
+  footer h5{
+  margin-top: 200px;
+  text-align: center;
+  }
+   }
+}}}}
